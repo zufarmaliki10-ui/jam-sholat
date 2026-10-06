@@ -1,0 +1,182 @@
+body {
+  margin: 0;
+  background-color: #0f172a;
+  color: #f8fafc;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.header h1 {
+  font-size: 1.5rem;
+  color: #34d399;
+  margin-bottom: 4px;
+}
+
+.header p {
+  color: #94a3b8;
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+.jam-card {
+  background-color: #1e293b;
+  border: 1px solid #334155;
+  border-radius: 16px;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.jam-display {
+  font-size: 3.2rem;
+  font-weight: bold;
+  font-family: monospace;
+  color: #ffffff;
+}
+
+.grid-jadwal {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.card-jadwal {
+  background-color: #1e293b;
+  border: 1px solid #334155;
+  border-radius: 12px;
+  padding: 12px;
+  text-align: center;
+}
+
+.card-jadwal h3 {
+  margin: 0;
+  font-size: 0.85rem;
+  color: #94a3b8;
+}
+
+.card-jadwal p {
+  margin: 6px 0 0 0;
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #34d399;
+}
+
+.section-box {
+  background-color: #1e293b;
+  border: 1px solid #334155;
+  border-radius: 16px;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+.section-box h2 {
+  font-size: 1rem;
+  margin: 0 0 12px 0;
+  color: #cbd5e1;
+}
+
+.btn-primary {
+  width: 100%;
+  padding: 14px;
+  background-color: #10b981;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.form-group {
+  display: flex;
+  gap: 8px;
+}
+
+.input-text {
+  flex: 1;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #475569;
+  background-color: #0f172a;
+  color: white;
+  font-size: 0.95rem;
+}
+
+.btn-secondary {
+  padding: 12px 18px;
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.preview-text {
+  margin-top: 10px;
+  font-size: 0.85rem;
+  color: #fbbf24;
+  word-break: break-all;
+}
+
+.form-row {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.form-row label {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 0.85rem;
+  color: #94a3b8;
+}
+
+.input-num {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #475569;
+  background-color: #0f172a;
+  color: white;
+  font-size: 0.95rem;
+}
+
+.btn-gps {
+  width: 100%;
+  padding: 10px;
+  background-color: #475569;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 0.85rem;
+}
+
+.btn-gps:active {
+  background-color: #334155;
+}
+
+@media (max-width: 425px) {
+  .grid-jadwal {
+    display: flex;
+    flex-direction: column;
+  }
+  .form-row {
+    display: flex;
+    flex-direction: column;
+  }
+}
